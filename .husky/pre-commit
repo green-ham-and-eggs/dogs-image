@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# husky pre-commit has some unresolved issues
+# yarn exec pretty-quick --staged && yarn exec concurrently yarn:test yarn:lint
